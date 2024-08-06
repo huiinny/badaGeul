@@ -14,6 +14,8 @@
 		A52082932C62435E00AFA1BC /* badageulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52082922C62435E00AFA1BC /* badageulTests.swift */; };
 		A520829D2C62435E00AFA1BC /* badageulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520829C2C62435E00AFA1BC /* badageulUITests.swift */; };
 		A520829F2C62435E00AFA1BC /* badageulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520829E2C62435E00AFA1BC /* badageulUITestsLaunchTests.swift */; };
+		A590315A2C6252D2003423FA /* AddGeulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59031592C6252D2003423FA /* AddGeulView.swift */; };
+		A590315C2C6252E8003423FA /* EditGeulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A590315B2C6252E8003423FA /* EditGeulView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		A52082982C62435E00AFA1BC /* badageulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = badageulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A520829C2C62435E00AFA1BC /* badageulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badageulUITests.swift; sourceTree = "<group>"; };
 		A520829E2C62435E00AFA1BC /* badageulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badageulUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A59031592C6252D2003423FA /* AddGeulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGeulView.swift; sourceTree = "<group>"; };
+		A590315B2C6252E8003423FA /* EditGeulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGeulView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				A52082802C62435B00AFA1BC /* badageulApp.swift */,
 				A52082822C62435B00AFA1BC /* ContentView.swift */,
+				A59031592C6252D2003423FA /* AddGeulView.swift */,
+				A590315B2C6252E8003423FA /* EditGeulView.swift */,
 				A52082842C62435D00AFA1BC /* Assets.xcassets */,
 				A52082862C62435D00AFA1BC /* badageul.entitlements */,
 				A52082872C62435D00AFA1BC /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52082832C62435B00AFA1BC /* ContentView.swift in Sources */,
+				A590315A2C6252D2003423FA /* AddGeulView.swift in Sources */,
 				A52082812C62435B00AFA1BC /* badageulApp.swift in Sources */,
+				A590315C2C6252E8003423FA /* EditGeulView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
