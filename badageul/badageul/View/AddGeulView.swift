@@ -18,6 +18,9 @@ struct AddGeulView: View {
             }
             
             Spacer()
+            
+            
+            
         }
     }
 }
